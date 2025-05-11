@@ -58,7 +58,9 @@ http://localhost:8501
 ## Business Dashboard
 
 Visualisasi Data Attrition Karyawan - Jaya Jaya Maju
-Proyek ini merupakan dashboard visualisasi data attrition (pengunduran diri karyawan) yang bertujuan membantu perusahaan memahami faktor-faktor yang memengaruhi tingkat keluar masuknya karyawan.
+Proyek ini merupakan dashboard visualisasi data attrition (pengunduran diri karyawan) yang bertujuan membantu perusahaan memahami faktor-faktor yang memengaruhi tingkat keluar masuknya karyawan. Menggunakan Metabase sebagai visualisasi data, maka saya menyajikan dalam bentuk gambar, belum bisa di sajikan ke public karna bersifat lokal saat di jalankan metabase.
+
+![Grafik Attrition](Moh%20Dani%20Kurniawan%20Sugiarto-Dashboard.jpg)
 
 📌 Insight Utama:
 
@@ -67,6 +69,7 @@ Non-Attrition: 83.5%
 Attrition: 16.5%
 
 🔍 Analisis Berdasarkan:
+
 Gender: Pria lebih banyak mengalami attrition dibanding wanita.
 
 Departemen: Sales memiliki tingkat attrition tertinggi.
@@ -78,6 +81,7 @@ Status Pernikahan: Karyawan single cenderung lebih sering resign.
 Usia: Usia 31–36 tahun paling rentan terhadap attrition.
 
 🛠 Tools & Visualisasi:
+
 Donut Chart
 
 Bar Chart
