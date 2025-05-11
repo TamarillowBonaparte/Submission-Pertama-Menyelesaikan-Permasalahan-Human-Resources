@@ -26,7 +26,7 @@ Tingkat attrition yang tinggi dapat berdampak negatif pada produktivitas, moral 
 
 1. Pengumpulan dan pembersihan data karyawan.
 2. Analisis eksplorasi data untuk menemukan pola yang relevan.
-3. Pengembangan model prediksi menggunakan teknik machine learning.
+3. Pengembangan model prediksi menggunakan teknik Random Forest.
 4. Penyajian hasil analisis melalui dashboard interaktif.
 5. Implementasi dan deployment aplikasi prediksi menggunakan Streamlit.
 
@@ -57,11 +57,40 @@ http://localhost:8501
 ```
 ## Business Dashboard
 
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Visualisasi Data Attrition Karyawan - Jaya Jaya Maju
+Proyek ini merupakan dashboard visualisasi data attrition (pengunduran diri karyawan) yang bertujuan membantu perusahaan memahami faktor-faktor yang memengaruhi tingkat keluar masuknya karyawan.
+
+📌 Insight Utama:
+Total Karyawan: 779.383
+
+Non-Attrition: 86.5%
+
+Attrition: 13.5%
+
+🔍 Analisis Berdasarkan:
+Gender: Pria lebih banyak mengalami attrition dibanding wanita.
+
+Departemen: Sales memiliki tingkat attrition tertinggi.
+
+Pendidikan: Pendidikan menengah–tinggi memiliki retensi lebih baik.
+
+Status Pernikahan: Karyawan single cenderung lebih sering resign.
+
+Usia: Usia 31–36 tahun paling rentan terhadap attrition.
+
+🛠 Tools & Visualisasi:
+Donut Chart
+
+Bar Chart
+
+Sankey Diagram
+
+🎯 Tujuan:
+Membantu HR dalam mengidentifikasi kelompok berisiko tinggi untuk attrition dan menyusun strategi retensi yang lebih efektif.
 
 ## Conclusion
 
-Jelaskan konklusi dari proyek yang dikerjakan.
+Model prediktif ini memberikan wawasan yang berharga tentang faktor-faktor yang mempengaruhi attrition karyawan dan membantu manajer HR dalam membuat keputusan yang lebih terinformasi. Dengan menggunakan aplikasi ini, Jaya Jaya Maju dapat menurunkan tingkat attrition dan meningkatkan kepuasan serta produktivitas karyawan.
 
 ### Rekomendasi Action Items (Optional)
 
