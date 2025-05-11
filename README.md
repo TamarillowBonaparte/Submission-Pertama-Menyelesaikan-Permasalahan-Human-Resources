@@ -34,7 +34,7 @@ Tingkat attrition yang tinggi dapat berdampak negatif pada produktivitas, moral 
 
 Sumber data: Dataset employee_data.csv.
 
-Tools: Python 3.x, Streamlit, scikit-learn, joblib, pandas, matplotlib.
+Tools: Python >3.10, Streamlit, scikit-learn, joblib, pandas, matplotlib.
 
 Setup environment:
 Instalasi environment:
@@ -45,8 +45,16 @@ atau secara manual:
 ```bash
 pip install streamlit pandas scikit-learn joblib matplotlib seaborn
 ```
+Menjalankan Aplikasi
 
-
+Jalankan aplikasi Streamlit dengan:
+```bash
+streamlit run app.py
+```
+Aplikasi akan terbuka di browser default Anda di alamat
+```
+http://localhost:8501
+```
 ## Business Dashboard
 
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
