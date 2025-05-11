@@ -61,11 +61,10 @@ Visualisasi Data Attrition Karyawan - Jaya Jaya Maju
 Proyek ini merupakan dashboard visualisasi data attrition (pengunduran diri karyawan) yang bertujuan membantu perusahaan memahami faktor-faktor yang memengaruhi tingkat keluar masuknya karyawan.
 
 📌 Insight Utama:
-Total Karyawan: 779.383
 
-Non-Attrition: 86.5%
+Non-Attrition: 83.5%
 
-Attrition: 13.5%
+Attrition: 16.5%
 
 🔍 Analisis Berdasarkan:
 Gender: Pria lebih banyak mengalami attrition dibanding wanita.
@@ -94,7 +93,10 @@ Model prediktif ini memberikan wawasan yang berharga tentang faktor-faktor yang 
 
 ### Rekomendasi Action Items (Optional)
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+- Input Data Karyawan: Pengguna diminta untuk memasukkan berbagai informasi tentang karyawan seperti usia, jenis kelamin, status pernikahan, pekerjaan, penghasilan bulanan, kepuasan pekerjaan, dan lainnya.
 
-- action item 1
-- action item 2
+- Tab "Make Prediction": Setelah mengisi informasi, pengguna dapat menekan tombol "Predict Attrition" untuk memprediksi apakah karyawan tersebut berisiko tinggi untuk meninggalkan perusahaan.
+
+- Tab "Model Information": Di sini, pengguna dapat melihat informasi mengenai model yang digunakan, metrik performa model (akurasi, presisi, recall, F1-score), serta pentingnya setiap fitur dalam model.
+
+- Rekomendasi untuk Mengurangi Attrition: Setelah prediksi, aplikasi memberikan rekomendasi untuk mengurangi risiko attrition berdasarkan faktor-faktor yang mempengaruhi hasil prediksi.
