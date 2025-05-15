@@ -16,11 +16,16 @@ Tingkat attrition yang tinggi dapat berdampak negatif pada produktivitas, moral 
 
 ### Permasalahan Bisnis
 
-1. Menyusun strategi untuk mengurangi tingkat attrition yang tinggi.
-2. Mengidentifikasi faktor-faktor yang paling berpengaruh terhadap keputusan karyawan untuk keluar.
-3. Meningkatkan efisiensi dalam proses rekrutmen dan pelatihan.
-4. Meningkatkan kesejahteraan dan kepuasan karyawan.
-5. Memberikan rekomendasi berbasis data untuk perbaikan dalam kebijakan HR.
+Perusahaan Jaya Jaya Maju saat ini menghadapi tingkat attrition (pengunduran diri karyawan) yang sangat tinggi. Dari analisis data employee_data.csv, terlihat bahwa dari 1470 karyawan, terdapat 412 kasus attrition (28%), yang menunjukkan hampir sepertiga karyawan memilih untuk mengundurkan diri. Tingginya tingkat attrition ini menimbulkan beberapa dampak signifikan:
+
+- Peningkatan Biaya Operasional: Setiap kali karyawan mengundurkan diri, perusahaan harus mengeluarkan biaya tambahan untuk rekrutmen, wawancara, hingga pelatihan karyawan baru. Dari visualisasi data terlihat bahwa sebagian besar yang mengundurkan diri berasal dari departemen Research & Development, yang umumnya membutuhkan keterampilan khusus dan waktu adaptasi lebih panjang.
+
+- Penurunan Kualitas Layanan Pendidikan: Dalam bisnis edutech, kualitas pengajar dan staf pendukung sangat memengaruhi hasil belajar. Dengan tingkat pergantian karyawan yang tinggi, terutama di kalangan karyawan bergelar Bachelor yang mendominasi attrition (seperti terlihat pada histogram pendidikan), konsistensi layanan pembelajaran menjadi terganggu.
+Hambatan Pengembangan Bisnis Jangka Panjang: Data menunjukkan bahwa kelompok Milenial dan karyawan dengan status Single adalah yang paling banyak keluar. Kelompok demografis ini sering kali membawa energi dan ide-ide inovatif yang sangat dibutuhkan untuk pengembangan produk edutech. Kehilangan mereka secara terus-menerus dapat menghambat inovasi dan daya saing perusahaan.
+
+- Masalah Retensi Talenta Strategis: Hasil analisis menunjukkan karyawan dengan jarak tempuh menengah (Intermediate_distance) memiliki tingkat attrition tinggi. Ini mengindikasikan adanya masalah work-life balance, khususnya bagi karyawan yang menghabiskan waktu signifikan untuk perjalanan ke tempat kerja namun tidak cukup dekat untuk kemudahan akses atau cukup jauh untuk kebijakan kerja jarak jauh.
+
+- Ketidakefektifan Kebijakan SDM: Model Random Forest yang dikembangkan dalam analisis mengidentifikasi ketidaksesuaian antara kebijakan SDM saat ini dengan kebutuhan karyawan, terutama dalam hal promosi, pengembangan karir, dan kebijakan jam kerja, yang mungkin menjadi pendorong utama keputusan untuk keluar.
 
 ### Cakupan Proyek
 
@@ -93,7 +98,26 @@ Membantu HR dalam mengidentifikasi kelompok berisiko tinggi untuk attrition dan 
 
 ## Conclusion
 
-Model prediktif ini memberikan wawasan yang berharga tentang faktor-faktor yang mempengaruhi attrition karyawan dan membantu manajer HR dalam membuat keputusan yang lebih terinformasi. Dengan menggunakan aplikasi ini, Jaya Jaya Maju dapat menurunkan tingkat attrition dan meningkatkan kepuasan serta produktivitas karyawan.
+Berdasarkan analisis data dan model Random Forest yang telah dikembangkan dengan akurasi 90%, beberapa karakteristik umum dari pegawai yang cenderung melakukan attrition telah teridentifikasi:
+
+- Demografis: Karyawan dari generasi Milenial (usia 28-42 tahun) memiliki tingkat attrition tertinggi, diikuti oleh Gen Z (18-27 tahun). Mayoritas yang mengundurkan diri adalah karyawan berstatus Single, menunjukkan bahwa pegawai tanpa tanggung jawab keluarga lebih mungkin mencari peluang di tempat lain.
+
+- Pendidikan dan Departemen: Lulusan dengan gelar Bachelor mendominasi kelompok yang keluar, dengan konsentrasi tinggi pada departemen Research & Development. Hal ini mengindikasikan adanya ketidaksesuaian antara ekspektasi karir profesional dengan realitas yang ditawarkan perusahaan untuk posisi yang membutuhkan keahlian teknis tinggi.
+
+- Faktor Geografis: Pegawai dengan kategori jarak tempuh Intermediate_distance (6-25 km) menunjukkan kecenderungan attrition yang lebih tinggi. Jarak ini cukup jauh untuk menyebabkan kelelahan perjalanan namun tidak cukup jauh untuk mendapatkan fleksibilitas kerja jarak jauh, menciptakan situasi "zona abu-abu" yang tidak menguntungkan.
+
+- Gender: Data menunjukkan bahwa karyawan laki-laki memiliki tingkat pengunduran diri yang lebih tinggi dibandingkan karyawan perempuan, yang mungkin berkaitan dengan perbedaan dalam prioritas karir dan kecenderungan mengambil risiko.
+
+- Pola Karir: Meskipun tidak disebutkan secara langsung dalam visualisasi, model Random Forest mengidentifikasi variabel seperti JobLevel dan YearsWithCurrManager sebagai prediktor penting, menunjukkan bahwa stagnasi karir dan hubungan dengan manajemen merupakan faktor signifikan dalam keputusan untuk keluar.
+
+Model prediktif ini memberikan departemen HR kemampuan untuk mengidentifikasi karyawan dengan risiko attrition tinggi berdasarkan karakteristik di atas. Dengan memahami profil karyawan yang cenderung keluar, HR dapat mengembangkan program retensi yang ditargetkan seperti:
+
+- Program mentoring khusus untuk karyawan Milenial dan Gen Z
+- Evaluasi ulang jalur karir dan sistem promosi untuk lulusan Bachelor di departemen R&D
+- Kebijakan kerja fleksibel atau tunjangan transportasi untuk karyawan dengan jarak tempuh menengah
+- Program pengembangan profesional yang lebih terstruktur untuk mencegah stagnasi karir
+
+Implementasi strategi berbasis data ini diproyeksikan dapat menurunkan tingkat attrition secara signifikan, mengurangi biaya rekrutmen dan pelatihan, serta meningkatkan stabilitas dan produktivitas di seluruh departemen, terutama di Research & Development yang merupakan area kritis untuk inovasi dan pertumbuhan perusahaan.
 
 ### Rekomendasi Action Items (Optional)
 
