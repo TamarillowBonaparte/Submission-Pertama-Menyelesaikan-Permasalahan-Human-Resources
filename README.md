@@ -1,7 +1,7 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 Submission Pertama: Menyelesaikan Permasalahan Human Resources Perusahan JAYA JAYA MAJU
 
-Aplikasi ini dirancang untuk membantu perusahaan **Jaya Jaya Maju** dalam menganalisis dan memprediksi **attrition karyawan**. Dengan lebih dari 1000 karyawan yang tersebar di berbagai lokasi, perusahaan ini menghadapi tantangan besar dalam mengelola tingkat kepergian karyawan (attrition). Aplikasi ini memberikan wawasan berdasarkan data historis yang tersedia, serta memberikan prediksi dan rekomendasi tentang karyawan yang kemungkinan besar akan meninggalkan perusahaan. Sumber data ![employee data](https://drive.google.com/file/d/115xCHo1GhWoz1x6xdFdHOVLSrU_9qIL0/view?usp=sharing)
+Aplikasi ini dirancang untuk membantu perusahaan **Jaya Jaya Maju** dalam menganalisis dan memprediksi **attrition karyawan**. Dengan lebih dari 1000 karyawan yang tersebar di berbagai lokasi, perusahaan ini menghadapi tantangan besar dalam mengelola tingkat kepergian karyawan (attrition). Aplikasi ini memberikan wawasan berdasarkan data historis yang tersedia, serta memberikan prediksi dan rekomendasi tentang karyawan yang kemungkinan besar akan meninggalkan perusahaan. Sumber data [employee data](https://drive.google.com/file/d/115xCHo1GhWoz1x6xdFdHOVLSrU_9qIL0/view?usp=sharing)
 
 ## Business Understanding
 
